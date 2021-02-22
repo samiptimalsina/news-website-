@@ -1,0 +1,147 @@
+*{
+      margin: 0;
+      padding: 0;
+    }
+      .nav-bar{
+        background-color: #800080;
+        
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+      
+
+      }
+      .nav-bar div ul li{
+        padding: 20px;
+
+              }
+
+       .nav-bar ul li a{
+     
+    text-transform: uppercase;
+    font-family: 'montserrat', monospace;
+    text-decoration: none;
+    color: white; 
+    font-size: 1.5em;   }
+
+    
+  .nav-bar .right-menu{
+    background-color: #800080;
+    float: right;
+    position: relative;
+    
+
+   }
+    .nav-bar ul li{
+      float: left;
+      list-style: none;
+      padding: 0 20px;
+    }
+
+      span{
+    display: none;
+    float: right;
+      padding-right: 20px;
+      font-size: 30px;
+  }
+  h1{
+    text-align: left;
+    font-family: monospace;
+    color: #fff;
+   height: 45px;
+
+  }
+  .latest-news{
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+
+}  
+
+
+  
+@media(max-width: 991px){
+  .nav-bar .right-menu ul li {
+      float: none;
+      display: block;
+
+
+  }
+  .right-menu{
+    width: 100%;
+    text-align: center;
+    float: none;
+
+
+  }
+span{
+  display: block;
+  color: white;
+  cursor: pointer;
+ 
+}
+.menu{
+  display: none;
+  
+  
+}
+}
+
+  .title-box{
+    box-sizing: content-box;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+.categories{
+ 
+  color: white;
+  font-size: 1.2em;
+  background-color: whitesmoke;
+
+
+}
+.categories h4{
+  background-color: purple;
+  border-radius: 5px;
+
+  padding: 10px;
+}
+.home-news-title{
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+.box{
+  background-color: purple;
+}
+.news-heading{
+  text-align: center;
+  margin-bottom: 40px;
+padding: 50px;
+
+}
+.details-news-img{
+  padding-top: 40px;
+  margin-top: 50px;
+}
+
+
+footer{
+  width: 100%;
+  color: white;
+  background-color: purple;
+  font-size: 1.2em;
+
+  
+
+}
+.footer-font{
+  font-family: sans-serif;
+  line-height: 20vh;
+
+}
+footer p a{
+  color: white;
+}
